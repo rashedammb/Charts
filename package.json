@@ -2,9 +2,9 @@
   "name": "charts",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/contorller.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/rashedammb/Charts#readme",
   "dependencies": {
-    "chart.js": "^4.3.0"
+    "chart.js": "^4.3.0",
+    "@cubejs-client/core": "^0.31.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3"
   }
 }
